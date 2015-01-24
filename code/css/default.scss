@@ -1,0 +1,53 @@
+$brand-primary: #834D3B;
+$jumbotron-bg: $brand-primary;
+$jumbotron-color: white;
+
+$thumbnail-padding: 0;
+$thumbnail-bg: $brand-primary;
+$thumbnail-caption-color: white;
+$thumbnail-border: darken($brand-primary, 3%);
+
+@import "bootstrap";
+@import "../bower_components/magnific-popup/dist/magnific-popup.css";
+
+$color-body: #F4F4F4;
+
+body {
+  background-color: $color-body;
+}
+
+.container {
+  background-color: white;
+  border-left: 1px solid darken($color-body, 10%);
+  border-right: 1px solid darken($color-body, 10%);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.caption {
+  text-align: center;
+}
+
+.thumbnail {
+  background-color: $brand-primary;
+
+  img {
+    border-radius: 3px 3px 0 0;
+    border-bottom: 1px solid $thumbnail-border;
+  }
+}
+
+#hero {
+  margin-top: 20px;
+}
+
+#aanbod {
+  margin-bottom: 40px;
+}
+
+#contact {
+  margin-top: 20px;
+}

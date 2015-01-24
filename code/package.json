@@ -1,0 +1,28 @@
+{
+  "name": "steenkapperij-juchtmans.be",
+  "version": "1.0.0",
+  "description": "steenkapperij-juchtmans.be",
+  "main": "Gruntfile.js",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.17.0",
+    "load-grunt-tasks": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janssit/steenkapperij-juchtmans.be"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/janssit/steenkapperij-juchtmans.be/issues"
+  },
+  "homepage": "http://www.steenkapperij-juchtmans.be"
+}
