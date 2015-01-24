@@ -1,0 +1,100 @@
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+@media screen and (min-width: 400px) {
+  #aanbod > div {
+    width: 48.1481481481%;
+    float: left;
+    
+    
+    
+     }
+    #aanbod > div:nth-child(2n+1) {
+      
+      
+      margin-left: 0;
+      margin-right: -100%;
+      
+      
+      clear: both;
+      margin-left: 0; }
+    #aanbod > div:nth-child(2n+2) {
+      
+      
+      margin-left: 51.8518518519%;
+      margin-right: -100%;
+      
+      
+      clear: none; }
+ }
+
+@media screen and (min-width: 600px) {
+  #aanbod > div {
+    width: 30.8641975309%;
+    float: left;
+    
+    
+    
+     }
+    #aanbod > div:nth-child(3n+1) {
+      
+      
+      margin-left: 0;
+      margin-right: -100%;
+      
+      
+      clear: both;
+      margin-left: 0; }
+    #aanbod > div:nth-child(3n+2) {
+      
+      
+      margin-left: 34.5679012346%;
+      margin-right: -100%;
+      
+      
+      clear: none; }
+    #aanbod > div:nth-child(3n+3) {
+      
+      
+      margin-left: 69.1358024691%;
+      margin-right: -100%;
+      
+      
+      clear: none; }
+ }
+
+@media screen and (min-width: 768px) {
+  #contact .left {
+    
+    
+    
+    width: 30.8641975309%;
+    float: left;
+    margin-left: 0;
+    
+    
+     }
+
+  #contact .right {
+    
+    
+    
+    width: 65.4320987654%;
+    float: left;
+    margin-left: 3.7037037037%;
+    
+    
+     }
+ }
+
+@media screen and (min-width: 960px) {
+  #wrap {
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb; }
+ }

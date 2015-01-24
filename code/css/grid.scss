@@ -1,0 +1,42 @@
+@import "../bower_components/susy/sass/susy";
+@import "variables";
+
+// Susy grid
+$susy: (
+  gutters: $gutter-width/4em,
+  gutter-position: before
+);
+
+.container {
+  // page acts as a container for our grid.
+  @include container;
+}
+
+@media screen and (min-width: $breakpoint-alpha) {
+  #aanbod > div {
+    @include gallery(6 of 12);
+  }
+}
+
+@media screen and (min-width: $breakpoint-beta) {
+  #aanbod > div {
+    @include gallery(4 of 12);
+  }
+}
+
+@media screen and (min-width: $breakpoint-charlie) {
+  #contact .left {
+    @include span(first 4 of 12);
+  }
+
+  #contact .right {
+    @include span(8 of 12);
+  }
+}
+
+@media screen and (min-width: $breakpoint-delta) {
+  #wrap {
+    border-left: 1px solid darken($color-body, 10%);
+    border-right: 1px solid darken($color-body, 10%);
+  }
+}

@@ -1,0 +1,20 @@
+$brand-primary: #834D3B;
+$jumbotron-bg: $brand-primary;
+$jumbotron-color: white;
+
+$thumbnail-padding: 0;
+$thumbnail-bg: $brand-primary;
+$thumbnail-caption-color: white;
+$thumbnail-border: darken($brand-primary, 3%);
+
+$color-body: #F4F4F4;
+
+$gutter-width: 3em;
+$grid-padding: 25px;
+
+// Breakpoints
+// -------------------------
+$breakpoint-alpha: 400px;
+$breakpoint-beta: 600px;
+$breakpoint-charlie: 768px;
+$breakpoint-delta: 960px;
