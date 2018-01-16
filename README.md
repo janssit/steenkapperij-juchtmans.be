@@ -1,1 +1,1 @@
-# steenkapperij-juchtmans.be
+Hosted on GitHub Pages.
